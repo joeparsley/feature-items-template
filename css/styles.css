@@ -1,0 +1,174 @@
+/* For testing only */
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.columns {
+  min-height: 100px;
+}
+/* End for testing */
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.header-container {
+  height: 30%;
+  width: 100%;
+  position: relative;
+}
+
+.nav-header {
+  height: 35%;
+  width: 100%;
+  position: relative;
+}
+
+.logo {
+  height: 35%;
+  width: 12%;
+  background-color: black;
+  position: absolute;
+  top: 30%;
+  left: 5%;
+}
+
+.nav-links {
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  right: 5%;
+  top: 30%;
+  overflow: hidden;
+}
+.nav-links a {
+ font-size: 2vh;
+}
+
+#link-1 {
+position: absolute;
+height: 100%;
+
+padding: .1% 5%;
+background-color: black;
+}
+
+#link-2 {
+position: absolute;
+height: 100%;
+left: 25%;
+padding: .1% 5%;
+background-color: black;
+}
+
+#link-3 {
+position: absolute;
+height: 100%;
+left: 50%;
+padding: .1% 5%;
+background-color: black;
+}
+
+#link-4 {
+position: absolute;
+height: 100%;
+left: 75%;
+padding: .1% 5%;
+background-color: black;
+}
+
+.row-1 {
+height: 20%;
+width: 50%;
+background-color: black;
+margin-left: 10%;
+margin-bottom: 2%;
+}
+
+.row-2 {
+  height: 20%;
+  width: 70%;
+  background-color: black;
+  margin-left: 10%;
+}
+
+.content-container {
+  height: 70%;
+  width: 100%;
+  background-color: yellow;
+  position: relative;
+}
+
+.box-1 {
+  background-color: orange;
+  height: 100%;
+  width: 18.75%;
+  position: absolute;
+  left: 5%;
+}
+
+.box-1 img {
+  height: 50%;
+  width: 50%;
+}
+
+.box-2 {
+  background-color: orange;
+  height: 100%;
+  width: 18.75%;
+  position: absolute;
+  left: 28.75%;
+}
+
+.box-2 img {
+  height: 50%;
+  width: 50%;
+}
+
+.box-3 {
+  background-color: orange;
+  height: 100%;
+  width: 18.75%;
+  position: absolute;
+  right: 28.75%;
+}
+
+.box-3 img {
+  height: 50%;
+  width: 50%;
+}
+
+.box-4 {
+  background-color: orange;
+  height: 100%;
+  width: 18.75%;
+  position: absolute;
+  right: 5%;
+}
+
+.box-4 img {
+  height: 50%;
+  width: 50%;
+}
